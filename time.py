@@ -1,0 +1,5 @@
+total_second = float(input("Введите кол-во сек. : "))
+hours = int(total_second // 3600)
+minutes = int((total_second // 60) % 60)
+seconds = int(total_second % 60)
+print(f'time is {hours}:{minutes}:{seconds}')
